@@ -57,5 +57,11 @@ class Calculator {
             double division = firstNum / secondNum;
             System.out.println(firstNum + " minus " + secondNum + " equals " + division);
         }
+        else {
+            System.out.println(" ");
+            System.out.println("Invalid selection.");
+            System.out.println("Please re-run the program.");
+            System.out.println("Make a valid selection.");
+        }
     }
 }
