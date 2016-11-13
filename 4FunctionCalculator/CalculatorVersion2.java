@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.lang.*;
 
-class Calculator{
+class Calculator {
     public static void main (String args[]) throws java.lang.Exception{
         Scanner functionChoice = new Scanner(System.in);
         System.out.println("Basic Calculator");
