@@ -32,7 +32,11 @@ class Calculator {
             Scanner firstNumber = new Scanner(System.in);
             System.out.print("Enter the first number in your subtraction problem._");
             double firstNum = firstNumber.nextDouble();
-
+            Scanner secondNumber = new Scanner(System.in);
+            System.out.print("Enter the second number in your subtraction problem._");
+            double secondNum = secondNumber.nextDouble();
+            double subtraction = firstNum - secondNum;
+            System.out.println(firstNum + " minus " + secondNum + " equals " + subtraction);
         }
     }
 }
