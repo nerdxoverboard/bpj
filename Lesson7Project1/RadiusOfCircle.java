@@ -6,6 +6,6 @@ class RadiusOfCircle {
         Scanner areaReader = new Scanner(System.in); //reads area input
         System.out.print("What is the area? _");
         double area = areaReader.nextDouble();
-
+        System.out.println(Math.sqrt(area/Math.PI));
     }
 }
