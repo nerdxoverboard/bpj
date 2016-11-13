@@ -27,8 +27,7 @@ class Calculator {
             double addition = firstNum + secondNum;
             System.out.println(firstNum + " plus " + secondNum + " equals " + addition);
         }
-
-        else if (function == 2){
+        else if (function == 2) {
             Scanner firstNumber = new Scanner(System.in);
             System.out.print("Enter the first number in your subtraction problem._");
             double firstNum = firstNumber.nextDouble();
@@ -37,6 +36,26 @@ class Calculator {
             double secondNum = secondNumber.nextDouble();
             double subtraction = firstNum - secondNum;
             System.out.println(firstNum + " minus " + secondNum + " equals " + subtraction);
+        }
+        else if (function == 3){
+            Scanner firstNumber = new Scanner(System.in);
+            System.out.print("Enter the first number in your multiplication problem._");
+            double firstNum = firstNumber.nextDouble();
+            Scanner secondNumber = new Scanner(System.in);
+            System.out.print("Enter the second number in your multiplication problem._");
+            double secondNum = secondNumber.nextDouble();
+            double multiplication = firstNum * secondNum;
+            System.out.println(firstNum + " multiplied by " + secondNum + " equals " + multiplication);
+        }
+        else if (function == 4){
+            Scanner firstNumber = new Scanner(System.in);
+            System.out.print("Enter the first number in your division problem._");
+            double firstNum = firstNumber.nextDouble();
+            Scanner secondNumber = new Scanner(System.in);
+            System.out.print("Enter the second number in your division problem._");
+            double secondNum = secondNumber.nextDouble();
+            double division = firstNum / secondNum;
+            System.out.println(firstNum + " minus " + secondNum + " equals " + division);
         }
     }
 }
