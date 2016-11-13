@@ -18,7 +18,5 @@ class Tester{
         System.out.println("Problem 5: " + (15-i1* ((int)d1*3)+4));
         System.out.println("Problem 6: " + (d3+d4));
         System.out.println("Problem 7: " + (2*(Math.PI)*d4));
-        System.out.println(d3);
-        System.out.println(d4);
     }
 }
