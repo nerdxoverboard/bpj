@@ -25,7 +25,7 @@ class Calculator {
             System.out.print("Enter the second number in your addition problem._");
             double secondNum = secondNumber.nextDouble();
             double addition = firstNum + secondNum;
-            System.out.println(firstNum + "plus" + secondNum + "equals" + addition);
+            System.out.println(firstNum + " plus " + secondNum + " equals " + addition);
         }
     }
 }
