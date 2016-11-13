@@ -2,11 +2,7 @@ class Tester{
     public static void main (String[] args){
         double d1 = 37.9;
         double d2 = 1004.128;
-        //double da3 = (Math.toRadians(187));
-        //double d3 = (3*(Math.PI)*(Math.sin(da3)));
         double d3 = 3*(Math.PI)*(Math.sin(Math.toRadians(187)));
-        //double da4 = (Math.toRadians(122));
-        //double d4 = (Math.abs(Math.cos(da4)));
         double d4 = (Math.abs(Math.cos(Math.toRadians(122))));
         int i1 = 12;
         int i2 = 18;
