@@ -1,13 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author hsuser01
- */
-public class RadiusOfCircle {
-    
+//@author nerdxoverboard
+import java.io.*;
+import java.util.*;
+class RadiusOfCircle { 
+    public static void main (String[] args){
+        Scanner areaReader = new Scanner(System.in); //reads area input
+        System.out.println
+    }
 }
