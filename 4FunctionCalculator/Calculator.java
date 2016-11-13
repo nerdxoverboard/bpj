@@ -27,5 +27,12 @@ class Calculator {
             double addition = firstNum + secondNum;
             System.out.println(firstNum + " plus " + secondNum + " equals " + addition);
         }
+
+        else if (function == 2){
+            Scanner firstNumber = new Scanner(System.in);
+            System.out.print("Enter the first number in your subtraction problem._");
+            double firstNum = firstNumber.nextDouble();
+
+        }
     }
 }
