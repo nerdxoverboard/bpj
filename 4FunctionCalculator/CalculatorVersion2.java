@@ -62,7 +62,7 @@ class Calculator {
                     System.out.println(firstNum + " minus " + secondNum + " equals " + division);
                     break;
                 }
-            default:
+            default :
                 System.out.println(" ");
                 System.out.println("Invalid selection.");
                 System.out.println("Please re-run the program.");
